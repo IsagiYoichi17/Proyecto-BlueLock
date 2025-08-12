@@ -5,33 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Lock - Inicio</title>
     <link rel="stylesheet" href="pages/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="logo">
-            <a href="index.html">
-                <img src="medios/logoFooter.png" alt="Logo Blue Lock">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e0f0ff; ">
+            <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="medios/logoFooter.png" alt="Logo Blue Lock" height="50">
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold text-primary" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-primary" href="./pages/jugadores.html">Jugadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-primary" href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-primary" href="./pages/galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a class="nav-link fw-bold text-primary" href="./pages/partidos.html">Partidos</a></li>
+                </li>
+                </ul>
             </div>
-            <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/jugadores.html">Jugadores</a></li>
-                <li><a href="./pages/multimedia.html">Multimedia</a></li>
-            </ul>
-            </nav>
-        </div>
-    </header>
+            </div>
+        </nav>
+</header>
     <main>
         <section>
-       <h2>Bienvenido al mundo de Blue Lock</h2>
+       <h2 class="subtitulo">Bienvenido al mundo de Blue Lock</h2>
        <p>Blue Lock es una serie de anime y manga centrada en la búsqueda del mejor delantero de Japón. Aquí conocerás a sus jugadores, sus habilidades y momentos épicos.</p>
        <img src="medios/blue_lock.png" alt="Blue Lock - Portada" class="portada">
         </section>
 
         <section>
-            <h2>¿De qué trata Blue Lock?</h2>
+            <h2 class="subtitulo">¿De qué trata Blue Lock?</h2>
             <p>
                 <strong>Blue Lock</strong> es un experimento extremo de la Federación Japonesa de Fútbol que busca crear al mejor delantero del mundo para ganar la Copa Mundial.
                 Para lograrlo, se encierra a 300 jóvenes en un riguroso programa de entrenamiento y competencia donde solo uno logrará brillar.
@@ -61,5 +78,6 @@
             </div>
         </div>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
