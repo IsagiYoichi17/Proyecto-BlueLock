@@ -1,0 +1,27 @@
+@use "variables" as*;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/*body*/
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: none;
+  color: $colorOscuro;
+  line-height: 1.6;
+
+    .portada{
+        height: 100%;
+        width: 100%;
+}
+
+
+
+}

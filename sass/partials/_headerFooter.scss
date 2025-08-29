@@ -1,0 +1,75 @@
+@use "variables" as*;
+
+header {
+  background-color: $colorBlanco;
+  border-bottom: 3px solid $colorCeleste;
+  padding: 10px 20px;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+
+    .logo {
+      img {
+        height: 60px;
+        width: auto;
+      }
+    }
+
+    .portada {
+      height: 100%;
+      width: 100%;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+
+      li {
+        a {
+          color: $colorCeleste;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $colorNegro;
+  color: $colorGris;
+  padding: 20px;
+  border-top: 3px solid $colorCeleste;
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+
+    .footer-logo {
+      img {
+        width: 100px;
+        height: auto;
+      }
+    }
+
+    .footer-rss {
+      text-align: right;
+      flex: 1;
+
+      a {
+        color: $colorCeleste2;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+    }
+  }
+}

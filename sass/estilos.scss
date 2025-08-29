@@ -1,0 +1,22 @@
+/*comentario de css*/
+
+// comentario de sass
+
+@use "partials/variables.scss";
+
+@use "partials/main";
+
+@use "partials/headerFooter";
+
+@use "partials/jugadores";
+
+@use "partials/contacto";
+
+@use "partials/galeria";
+
+@use "partials/partidos";
+
+// ultimo siempre el mediaQ
+
+@use "partials/mediaQ";
+
