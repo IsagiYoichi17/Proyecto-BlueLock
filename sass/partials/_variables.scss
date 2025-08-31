@@ -1,0 +1,33 @@
+
+
+// variables
+
+
+$colorBlanco: #e0f0ff;
+$colorCeleste: #0077cc;
+$colorNegro: #1e2a38;
+$colorGris: #e0e0e0;
+$colorCeleste2: #00c8ff;
+$colorFondo: #FFFFFF;
+$colorOscuro: #4a4a4a;
+$colorH2: #0a2e4d;
+$colorBorder: #e6eef7;
+
+//mixin
+
+@mixin grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+//extend
+%card{
+    background: $colorFondo;
+    border: 1px solid $colorBlanco;
+    border-radius: 12px;
+}
+
+%card2{
+    @extend %card;
+    border-radius: 8px;
+}

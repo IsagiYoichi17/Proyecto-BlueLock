@@ -1,0 +1,51 @@
+@use "variables" as*;
+
+
+@media (max-width: 768px) {
+  // header y navbar
+  header {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+
+      nav {
+        ul {
+          flex-direction: column;
+          gap: 10px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  //footer
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  //portada
+  .portada {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-jugadores .grid-jugadores {
+    grid-template-columns: 1fr;
+  }
+  .container-jugadores .card-jugador img {
+    height: 200px;
+  }
+
+  //galeria
+  main .galeria-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  //partidos
+  .partidos-grid {
+    grid-template-columns: 1fr;
+  }
+}
