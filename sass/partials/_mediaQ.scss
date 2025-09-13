@@ -36,7 +36,9 @@
     grid-template-columns: 1fr;
   }
   .container-jugadores .card-jugador img {
-    height: 200px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   //galeria
